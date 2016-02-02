@@ -1776,7 +1776,7 @@
 	}
 
 		.image:before {
-			background: url("images/overlay.png");
+			background: url("");
 			content: '';
 			height: 100%;
 			left: 0;
@@ -1800,9 +1800,14 @@
 		}
 
 			.image.featured img {
-				display: block;
-				width: 100%;
+				width: 150px;
+				height: 150px;
 			}
+				.image.featured.odd img {
+					width: 400px;
+					height: 100px;
+					margin-top: 50px;
+				}
 
 /* Icon */
 
@@ -3189,3 +3194,16 @@
 			}
 
 	}
+
+
+.nl-logo {
+	width: 150px;
+	height: 150px;
+}
+
+
+
+
+
+
+
