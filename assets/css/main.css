@@ -1808,6 +1808,9 @@
 					height: 100px;
 					margin-top: 50px;
 				}
+				.image.featured.courage img {
+					width: 300px;
+				}
 
 /* Icon */
 
@@ -2281,10 +2284,10 @@
 			-webkit-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: transparent;
+			/*background: transparent;*/
 			box-shadow: none;
 			color: #fff;
-			padding: 2em 2.5em;
+			/*padding: 2em 2.5em;*/
 			position: absolute;
 		}
 
@@ -2295,6 +2298,10 @@
 
 				#header.alt nav ul li.active > a, #header.alt nav ul li:hover > a {
 					border: solid 1px;
+				}
+
+				header.focus h3 {
+					color: #83d3c9;
 				}
 
 /* Dropotron */
@@ -2394,7 +2401,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url(""), url(""), url(""), url("../../images/background.jpg");
+		background-image: url(""), url(""), url(""), url("../../images/nlbackground.jpeg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2413,7 +2420,7 @@
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(52, 27, 43, 0.8);
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2511,7 +2518,7 @@
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 5em 5em 5em 5em;
 		text-align: center;
 	}
 
